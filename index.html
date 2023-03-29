@@ -33,11 +33,33 @@
       defer></script>
   </head>
   <body>
-    <h2>3D Heritage Library</h2>
+    <div class="container">
+
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+      
+      <h2>3D Heritage Library</h2>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard dummy text
+      ever since the 1500s,
+      when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five
+      centuries</p>
+
+      </div>
+
+    
+
+    </div>
+
     <div class="container">
 
       <!-- Grantown Museum -->
-
       <!-- Young Victoria-->
       <div class="row">
 
@@ -69,7 +91,6 @@
             Aldus PageMaker including versions of Lorem Ipsum.</p>
           <p>Lorem Ipsum is simply dummy text</p>
         </div>
-
       </div>
 
       <!-- Fencibles Uniform -->
@@ -203,7 +224,6 @@
       </div>
 
       <!-- Childhood Museum -->
-
       <!-- Tizzie-->
       <div class="row">
 
@@ -360,19 +380,6 @@
 
       </div>
 
-
-
-
-      <nav aria-label="Page navigation example">
-        <ul class="pagination">
-          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">Next</a></li>
-        </ul>
-      </nav>
-
     </div>
 
     <footer class="bg-light text-center text-lg-start">
@@ -381,20 +388,14 @@
         © 2023 Copyright:
         <a class="text-dark" href="https://corrie.dev/">Contact</a>
       </div>
-      <!-- Copyright -->
     </footer>
 
-
-    <!-- 💁 Include both scripts below to support all browsers! -->
-    <!-- Loads <model-viewer> for modern browsers: -->
     <script
       type="module"
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
     <script
       nomodule
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-    <!-- Download Model-Viewer generated poster image -->
-
     <script>
       const modelViewer = document.getElementById("viewer");
 
