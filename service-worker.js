@@ -1,16 +1,17 @@
 const CACHE_NAME = 'website-cache-v1';
 const urlsToCache = [
-  '/assets/models/Young_Victoria_Low_Clean.glb',
-  '/assets/models/Box.glb',
-  '/assets/models/Christening_Gown_Low_Clean.glb',
-  '/assets/models/Doll_Dress_Low.glb',
-  '/assets/models/Fencibles_Uniform_Low.glb',
-  '/assets/models/Grant_Wedding_Dress_Low_Clean.glb',
-  '/assets/models/Kids_Kilt_Low.glb',
-  '/assets/models/Paddington_Low.glb',
-  '/assets/models/Tizzie_low.glb',
-  '/assets/models/Victorian_Dress.glb'
+  'assets/models/Young_Victoria_Low_Clean.glb',
+  'assets/models/Victorian_Dress.glb'
 ];
+
+// '/assets/models/Box.glb',
+// '/assets/models/Christening_Gown_Low_Clean.glb',
+// '/assets/models/Doll_Dress_Low.glb',
+// '/assets/models/Fencibles_Uniform_Low.glb',
+// '/assets/models/Grant_Wedding_Dress_Low_Clean.glb',
+// '/assets/models/Kids_Kilt_Low.glb',
+// '/assets/models/Paddington_Low.glb',
+// '/assets/models/Tizzie_low.glb',
 
 self.addEventListener('install', function(event) {
     console.log('Service Worker installed');
