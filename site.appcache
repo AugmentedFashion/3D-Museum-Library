@@ -1,6 +1,6 @@
 CACHE MANIFEST
 # 2023-03-22 v1.0.0
-
+CACHE
 /assets/models/Blue_Dress_Low_Clean.glb
 /assets/models/Box.glb
 /assets/models/Christening_Gown_Low_Clean.glb
@@ -12,6 +12,7 @@ CACHE MANIFEST
 /assets/models/Tizzie_low.glb
 /assets/models/Victorian_Dress.glb
 /assets/models/Young_Victoria_Low_Clean.glb
+https://augmentedfashion.github.io/3D-Museum-Library/assets/models/Young_Victoria_Low_Clean.glb
 
 NETWORK:
 
