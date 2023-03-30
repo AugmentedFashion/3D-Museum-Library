@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="site.appcache">
+<html>
   <head>
 
     <title>3D Library Viewer </title>
@@ -33,6 +33,13 @@
       defer></script>
   </head>
   <body>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js');
+      }
+    </script>
+
     <div class="container">
 
       <ul class="pagination">
@@ -173,27 +180,5 @@
     <script
       nomodule
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-    <script>
-      const modelViewer = document.getElementById("viewer");
-
-      async function downloadPosterToBlob() {
-        const blob = await modelViewer.toBlob({ idealAspect: false });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = "modelViewer_toBlob.png";
-        a.click();
-        URL.revokeObjectURL(url);
-      }
-
-      function downloadPosterToDataURL() {
-        const url = modelViewer.toDataURL();
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = "modelViewer_toDataURL.png";
-        a.click();
-        URL.revokeObjectURL(url);
-      }
-    </script>
   </body>
 </html>
