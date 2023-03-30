@@ -1,17 +1,32 @@
 
 
 
-@media only screen and (min-width: 1375px) {
+@media only screen and (min-width: 1200px) {
 
   model-viewer {
-      padding: 2%;
-      width: 360px;
-      height: 360px;
-    }
+    width: 250px;
+    height: 300px;
+    left:-10%;
+  }
   
   }
       
+  @media only screen and (min-width: 990px) {
+
+
+    model-viewer {
+      padding: 2%;
+      width: 360px;
+      height: 360px;
+      left:0;
+    }
+  }
     
+    model-viewer {
+      width: 300px;
+      height: 300px;
+      left:0;
+    }
 
 
 h2 {
@@ -28,4 +43,8 @@ h2 {
   float: right;
   display: block;
   padding-top: 6%;
+}
+
+.intro{
+  padding-bottom: 2%;
 }
