@@ -8,6 +8,7 @@ const urlsToCache = [
   'assets/models/Grant_Wedding_Dress_Low_Clean.glb',
   'assets/models/Kids_Kilt_Low.glb',
   'assets/models/Paddington_Low.glb',
+  'assets/models/Blue_Dress.glb',
   'assets/models/Tizzie_low.glb'
 ];
 
