@@ -30,10 +30,10 @@ https://github.com/facebookincubator/FBX2glTF was used to convert files from fbx
 
 FBX2glTF-windows-x64.exe --binary --verbose --khr-materials-unlit --input Blue_Dress_Low_Clean.fbx --output new-blue.glb3
 
-Hosting
+<h2>Hosting</h2>
 
 - As no webserver was used in the budget hosted using gitpages at the above url. 
 
-Result
+<h2>Result</h2>
 
 A small, fast website that allows for 3D artifacts to be displayed on mobile and desktop devices. The AR funtionality on mobile and tablet allows users to place the model in the real world and take photos and videos with it and save directly to their device without having to download an application. 
